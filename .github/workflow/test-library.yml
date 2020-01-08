@@ -3,7 +3,7 @@ name: test and build library
 on: pull_request
 
 jobs:
-  test-inliner:
+  test-asyngular-client:
     runs-on: ${{ matrix.platform }}
 
     strategy:
